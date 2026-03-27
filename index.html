@@ -220,15 +220,6 @@
     color: var(--text-sub);
     opacity: 0.7;
   }
-  .move-content a {
-    color: var(--gold);
-    text-decoration: none;
-    border-bottom: 1px dotted rgba(201,169,110,0.4);
-    transition: border-color 0.2s;
-  }
-  .move-content a:hover {
-    border-bottom-color: var(--gold);
-  }
 
   /* ── Footer ── */
   .footer {
@@ -297,7 +288,7 @@
   <div class="event">
     <div class="event-dot"><div class="event-dot-inner"></div></div>
     <div class="event-card">
-      <div class="event-time">8:10</div>
+      <div class="event-time">8:20</div>
       <div class="event-icon-title">
         <span class="event-icon">🚗</span>
         <span class="event-name">自宅出発</span>
@@ -314,9 +305,9 @@
     <div class="move-dot"></div>
     <div class="move-content">
       <span class="move-icon">🚃</span>
-      <a href="https://transit.yahoo.co.jp/search/result?from=%E7%9F%B3%E6%A9%8B&to=%E3%81%95%E3%81%84%E3%81%9F%E3%81%BE%E6%96%B0%E9%83%BD%E5%BF%83&y=2026&m=04&d=03&hh=08&m1=3&m2=5&type=1" target="_blank">石橋 8:35発 湘南新宿ライン（逗子行）</a>
+      <span>石橋 8:46発 宇都宮線（乗換なし）</span>
       <span class="move-line"></span>
-      <span class="move-time">約1h10m</span>
+      <span class="move-time">約1h</span>
     </div>
   </div>
 
@@ -324,7 +315,7 @@
   <div class="event">
     <div class="event-dot"><div class="event-dot-inner"></div></div>
     <div class="event-card">
-      <div class="event-time">9:45着 – 10:45</div>
+      <div class="event-time">9:50着 – 10:45</div>
       <div class="event-icon-title">
         <span class="event-icon">🍽️</span>
         <span class="event-name">chawan ekism<br>さいたま新都心店</span>
@@ -370,7 +361,7 @@
     <div class="move-dot"></div>
     <div class="move-content">
       <span class="move-icon">🚃</span>
-      <a href="https://transit.yahoo.co.jp/search/result?from=%E3%81%95%E3%81%84%E3%81%9F%E3%81%BE%E6%96%B0%E9%83%BD%E5%BF%83&to=%E8%AD%B7%E5%9B%BD%E5%AF%BA&y=2026&m=04&d=03&hh=13&m1=0&m2=0&type=1" target="_blank">湘南新宿ライン → 池袋 → 有楽町線</a>
+      <span>湘南新宿ライン → 池袋 → 有楽町線</span>
       <span class="move-line"></span>
       <span class="move-time">約35min</span>
     </div>
@@ -393,12 +384,32 @@
     </div>
   </div>
 
-  <!-- Free Time -->
-  <div class="free-block">
-    <div class="free-dot"></div>
-    <div class="free-card">
-      <div class="free-label">フリータイム</div>
-      <div class="free-time">14:45 – 17:00（約2時間）</div>
+  <!-- Move -->
+  <div class="move">
+    <div class="move-dot"></div>
+    <div class="move-content">
+      <span class="move-icon">🚃</span>
+      <span>有楽町線 → 副都心線 → 明治神宮前〈原宿〉</span>
+      <span class="move-line"></span>
+      <span class="move-time">約20min</span>
+    </div>
+  </div>
+
+  <!-- 5. モフ、ギュウギュウ展 -->
+  <div class="event">
+    <div class="event-dot"><div class="event-dot-inner"></div></div>
+    <div class="event-card">
+      <div class="event-time">15:15 – 16:15</div>
+      <div class="event-icon-title">
+        <span class="event-icon">🐾</span>
+        <span class="event-name">モフ、ギュウギュウ展</span>
+      </div>
+      <div class="event-details">
+        東急プラザ原宿「ハラカド」3F<br>
+        れもんらいふオフィス前 特設会場<br>
+        <a href="https://www.tokyu-plaza.com/harakado/shopnews/detail/263?tenant_cd=030200001" target="_blank">📍 公式ページを開く</a>
+      </div>
+      <span class="event-tag">催事</span>
     </div>
   </div>
 
@@ -407,9 +418,18 @@
     <div class="move-dot"></div>
     <div class="move-content">
       <span class="move-icon">🚃</span>
-      <a href="https://transit.yahoo.co.jp/search/result?from=%E8%AD%B7%E5%9B%BD%E5%AF%BA&to=%E7%99%BD%E9%87%91%E9%AB%98%E8%BC%AA&y=2026&m=04&d=03&hh=17&m1=0&m2=0&type=1" target="_blank">有楽町線 → 南北線 → 白金高輪</a>
+      <span>副都心線 → 南北線 → 白金高輪</span>
       <span class="move-line"></span>
       <span class="move-time">約25min</span>
+    </div>
+  </div>
+
+  <!-- Free Time -->
+  <div class="free-block">
+    <div class="free-dot"></div>
+    <div class="free-card">
+      <div class="free-label">フリータイム</div>
+      <div class="free-time">16:45 – 17:30（余裕あり）</div>
     </div>
   </div>
 
@@ -437,7 +457,7 @@
     <div class="move-dot"></div>
     <div class="move-content">
       <span class="move-icon">🚃</span>
-      <a href="https://transit.yahoo.co.jp/search/result?from=%E5%93%81%E5%B7%9D&to=%E7%9F%B3%E6%A9%8B&y=2026&m=04&d=03&hh=20&m1=3&m2=0&type=1" target="_blank">品川駅 → JR宇都宮線 → 石橋駅</a>
+      <span>品川駅 → JR宇都宮線 → 石橋駅</span>
       <span class="move-line"></span>
       <span class="move-time">約1h50m</span>
     </div>
